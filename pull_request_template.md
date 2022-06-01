@@ -1,9 +1,19 @@
-Please ensure your pull request adheres to the following guidelines:
+Please check that the code in the pull request checks these boxes.
 
-- [ ] Use the following format: `* [owner/repo](link)`
-- [ ] Link additions should be added to the bottom of the relevant category.
-- [ ] New categories or improvements to the existing categorization are welcome.
-- [ ] Search previous suggestions before making a new one, as yours may be a duplicate.
-- [ ] Sort by alphabetical order
+Code Quality 
+- [ ] The code is easy to understand, uses good variable and function names
+- [ ] The code does not have functions that are too large or are doing more than one responsibility at a time
+- [ ] The code does not have duplicate/redundant code that can be pulled into functions
 
-Thanks for contributing!
+Testing
+- [ ] Has all necessary unit/integration tests 
+- [ ] Satisfies coverage threshold
+
+Deployment/local testing
+- [ ] The PR does not require any manual changes while running locally.
+- [ ] Are there any env variables that need to be added in the .envrc.example file
+- [ ] Are there any manual setup steps that need to be added in ./go file or makefile
+- [ ] Is configured correctly for dev/stage/prod
+
+Documentation
+- [ ] Have all required README changes been made
