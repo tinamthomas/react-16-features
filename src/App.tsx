@@ -7,6 +7,7 @@ const initialTodos = [{task: 'Grocery'}, {task: 'Laundry'}]
 
 class App extends Component {
   render() {
+    console.log("Hello")
     return (
       <TodoApp todos={initialTodos}/>
     );
